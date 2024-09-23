@@ -1,0 +1,112 @@
+body,html{
+    margin: 0px;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main{
+    margin: 90px;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 720px;
+    font-size: 16px;
+    border-radius: 16px;
+    padding: 34px;
+}
+img{
+    border-radius: 12px;
+    width: 100%;
+}
+
+#picture{
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+}
+h1{
+    font-size: 35px;
+    padding-top: 5px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-size: 16px;
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%)
+}
+#pink{
+    background-color: hsl(330, 100%, 98%);
+    padding-top: 4px;
+    padding-left: 30px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
+}
+h3{
+    color: hsl(332, 51%, 32%);
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    margin-left: 16px;
+}
+li{
+    padding-left: 15px;
+    padding-bottom: 12px;
+    font-family: "Outfit", system-ui;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+li::marker {
+    font-size: 0.7rem;
+}
+ol{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+ol li::marker{
+    font-family: "Outfit", system-ui;
+    font-weight: 700;
+    font-size: 15px;
+}
+table{
+    width: 100%;
+    margin-bottom: 30px;
+}
+tr{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+}
+th{
+    font-family: "Outfit", system-ui;
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(14, 45%, 36%);
+}
+td{
+    font-family: "Outfit", system-ui;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+}
+@media (max-width: 749px) {
+#main {
+    margin: 0px;
+    border-radius: 0px;
+}
+#pink ul{
+    margin: 0px;
+}
+}
